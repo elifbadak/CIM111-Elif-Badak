@@ -1,0 +1,177 @@
+<style>
+
+h4 {
+	font-size: 10pt
+
+}
+
+div.a {
+  font-size: 18px;
+}
+div.b {
+  font-size: 15px;
+}
+
+
+div.transbox {
+  margin: 10px;
+  background-color: #ffffff;
+  border: 1px solid white;
+  opacity: .5;
+  filter: alpha(opacity=60); 
+  padding:15px;
+  width: 450px;
+}
+
+div.transbox p {
+  margin: 2%;
+  font-size: 40pt
+  color: #000000;
+
+}
+
+
+div.pbox {
+  background-color: white;
+  width: 500px;
+  border: 1px white;
+  padding: 10px;
+  margin: 0px;
+}
+
+
+
+
+
+
+
+
+address, p, h3
+{
+	font-family: verdana;
+	font-size: 9pt
+}
+
+
+h2 {
+	font-family: gotham;
+	font-size: 35pt
+	color: white;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #85BDCC;
+  opacity: 50%
+  padding: 20px;
+  text-align: center;
+  font-family: gotham;
+  font-size: 23pt
+
+ 
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #F8E0BE;
+  font-size:11pt;
+  font-family: verdana
+
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: center;
+  display: block;
+  color: #585959;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #BCE1EB;
+  color: black;
+}
+
+
+
+
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
